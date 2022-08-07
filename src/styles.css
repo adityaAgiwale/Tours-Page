@@ -1,0 +1,142 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* Tour */
+.tour {
+  width: 800px;
+  padding: 20px;
+  margin: 30px 0px 60px;
+  border-radius: 20px;
+  box-shadow: 6px 7px 25px -13px rgba(0, 76, 76, 1);
+}
+
+.tour > footer {
+  padding: 10px 20px;
+}
+
+.tour > img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info > h3 {
+  font-weight: 700;
+  font-size: 21px;
+}
+
+.info > p {
+  background-color: rgba(255, 0, 0, 0.3);
+  color: red;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.desc {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.showMore {
+  border: none;
+  color: red;
+}
+
+.notIntreseted {
+  border: 1px solid red;
+  padding: 5px 10px;
+  font-size: 17px;
+  color: red;
+  background: none;
+  margin: 20px 0px;
+}
+
+/* Tours */
+.tours-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.underLine {
+  width: 150px;
+  height: 3px;
+  background-color: red;
+}
+
+/* Loading */
+.loading {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+}
+
+.noDataFound {
+  font-size: 30px;
+  padding: 20px 0px;
+  font-weight: 400;
+}
+
+.refreshBtn {
+  border: 1px solid red;
+  padding: 5px 10px;
+  font-size: 17px;
+  color: red;
+  background: none;
+  margin: 20px 0px;
+}
+
+@media (max-width: 675px) {
+  .tour {
+    width: 100%;
+    padding: 0px;
+    margin: 20px 0px 20px;
+  }
+  .tour > img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    padding: 8px;
+    border-radius: 14px;
+  }
+  .info > h3 {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .info > p {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    font-size: 13px;
+    width: 100px;
+    border-radius: 5px;
+  }
+
+  .desc {
+    text-align: justify;
+    font-size: 13px;
+  }
+}
